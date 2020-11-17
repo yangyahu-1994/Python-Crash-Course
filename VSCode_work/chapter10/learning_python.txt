@@ -1,0 +1,4 @@
+In Python you can write functions.
+In Python you can study machine learning and deep learning.
+In Python you can do numerical calculations.
+In Python you can do data visualization.
