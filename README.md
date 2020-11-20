@@ -9,7 +9,7 @@
 - VSCode_work文件夹中保存的是各个章节的课后习题Python源代码,大部分是自己写的,部分参考了别人,都可正确运行。
 - Python编程:从入门到实践这个文件夹是我当时做课后习题时,从图灵社区随书下载那里下载的。
 - second_edition文件夹是从作者那里下载的。
+- contact me:Email: yyh_19940317@163.com
 <div align=center>
 	<img src="https://file.ituring.com.cn/SmallCover/0100fda4486fc72b3548" width="300">
 </div>
-### Email: yyh_19940317@163.com
