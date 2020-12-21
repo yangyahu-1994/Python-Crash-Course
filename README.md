@@ -11,7 +11,8 @@
 - second_edition文件夹是从作者那里下载的。
 - pcc仓库是从作者那里fork过来的,可以参考。
 - Python官方中文版文档:[https://docs.python.org/zh-cn/3/](https://docs.python.org/zh-cn/3/ "Python官方中文版文档链接")
+- Email: yyh_19940317@163.com
 <div align=center>
 	<img src="https://file.ituring.com.cn/SmallCover/0100fda4486fc72b3548" width="300">
 </div>
-- Email: yyh_19940317@163.com
+---
