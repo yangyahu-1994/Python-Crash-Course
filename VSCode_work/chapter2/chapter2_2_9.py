@@ -3,3 +3,6 @@
 favotite_number = 666
 message = "My favorite number is " + str(favotite_number) + "."
 print(message)
+
+# 使用f字符串
+print(f"My favorite number is {str(favotite_number)}.")
