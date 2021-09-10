@@ -1,4 +1,4 @@
-# 将一些姓名存储在列表中
+# 将一些朋友的姓名存储在列表中
 names =  ["Yang yahu","Gao tong","Hu jin","LI liusheng"]
 # 依次访问列表的每个元素
 print(names[0])

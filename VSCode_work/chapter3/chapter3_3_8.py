@@ -1,5 +1,5 @@
 # 创建原始列表并打印
-travel_places = ['lhasa','lijiang','qinghai lake','skyland']
+travel_places = ['lhasa', 'lijiang', 'qinghai lake', 'skyland']
 print(travel_places)
 
 # 按字母顺序打印该列表，同时不要修改原始列表
@@ -12,7 +12,7 @@ print(travel_places)
 
 # 按与字母顺序相反的顺序打印这个列表，同时不要修改它
 print("\n这个是与字母顺序相反的列表：")
-print(sorted(travel_places,reverse = True))
+print(sorted(travel_places, reverse = True))
 
 # 再次打印该列表，核实顺序未变
 print("\n这个是原始列表：")
