@@ -1,6 +1,6 @@
 # 创建列表
 cubes = []
-for value in range(1,11):
+for value in range(1, 11):
     value = value ** 3
     cubes.append(value)
 
