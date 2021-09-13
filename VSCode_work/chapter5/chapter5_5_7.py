@@ -1,5 +1,5 @@
 # 创建列表
-favorite_fruits = ['Shago','Begonia','Hawthorn',]
+favorite_fruits = ['Shago', 'Begonia', 'Hawthorn',]
 
 # 条件检查
 if 'Shago' in favorite_fruits:
