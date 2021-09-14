@@ -18,7 +18,7 @@ cities = {
     }
 
 # 打印信息
-for city, city_infos in cities.items():
-    print("\nCity: " + city.title())
-    for x, y in city_infos.items():
-        print("\t" + x.title() + ": " + y.title())
+for city, city_info in cities.items():
+    print(f"\nCity: {city.title()}")
+    for x, y in city_info.items():
+        print(f"\t{x.title()}: {y.title()}")

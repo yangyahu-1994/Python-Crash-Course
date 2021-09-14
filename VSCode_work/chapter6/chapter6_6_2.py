@@ -8,13 +8,13 @@ like_numbers = {
     }
 
 # 打印
-print('Yang Yahu: ' + str(like_numbers['yang yahu']) + "." + 
+print(f"Yang Yahu: {like_numbers['yang yahu']}."  
     " Is this your favorite number?")
-print("Gao Xiangzhou: " + str(like_numbers['gao xiangzhou']) + "." +
+print(f"Gao Xiangzhou: {like_numbers['gao xiangzhou']}."
     " Is this your favorite number?")
-print("Yang Yuhang: " + str(like_numbers['yang yuhang']) + "." +
+print(f"Yang Yuhang: {like_numbers['yang yuhang']}."
     " Is this your favorite number?")
-print("Li Jianfeng: " + str(like_numbers['li jianfeng']) + "." +
+print(f"Li Jianfeng: {like_numbers['li jianfeng']}."
     " Is this your favorite number?")
-print("Yuan Li: " + str(like_numbers['yuan li']) + "." +
+print(f"Yuan Li: {like_numbers['yuan li']}."
     " Is this your favorite number?")

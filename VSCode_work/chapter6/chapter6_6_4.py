@@ -14,4 +14,4 @@ glossary = {
 
 # 遍历字典
 for key, value in glossary.items():
-    print(key + ":" + value)
+    print(f"{key}: {value}")

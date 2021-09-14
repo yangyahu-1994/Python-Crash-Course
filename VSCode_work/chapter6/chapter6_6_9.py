@@ -8,8 +8,8 @@ favorite_places = {
 # 遍历字典
 for name, places in favorite_places.items():
     if len(places) > 1:
-        print("\n" + name.title() + "'s favorite places are as following:")
+        print(f"\n{name.title()}'s favorite places are as following:")
         for place in places:
-            print("\t" + place.title())
+            print(f"\t{place.title()}")
     else:
-        print("\n" + name.title() + "'s favorite place is " + places[0].title())
+        print(f"\n{name.title()}'s favorite place is { places[0].title()}")

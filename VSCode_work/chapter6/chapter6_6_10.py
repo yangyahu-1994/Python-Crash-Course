@@ -9,6 +9,6 @@ like_numbers = {
 
 # 打印名字及喜欢的数字
 for name, numbers in like_numbers.items():
-    print("\n" + name.title() + " likes these numbers: ")
+    print(f"\n{name.title()} likes these numbers: ")
     for number in numbers:
-        print("\t" + str(number))
+        print(f"\t{number}")

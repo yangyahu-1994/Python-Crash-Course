@@ -8,8 +8,8 @@ glossary = {
     }
 
 # 打印
-print("print: " + glossary['print'])
-print("title: " + glossary['title'])
-print("lower: " + glossary['lower'])
-print("upper: " + glossary['upper'])
-print("str: " + glossary['str'])
+print(f"print: {glossary['print']}")
+print(f"title: {glossary['title']}")
+print(f"lower: {glossary['lower']}")
+print(f"upper: {glossary['upper']}")
+print(f"str: {glossary['str']}")

@@ -9,8 +9,8 @@ favorite_languages = {
 
 for name, languages in favorite_languages.items():
     if len(languages) > 1:
-        print("\n" + name.title() + "'s favorite languages are:")
+        print(f"\n{name.title()}'s favorite languages are:")
         for language in languages:
-            print("\t" + language.title())
+            print(f"\t{language.title()}")
     else:
-        print("\n" + name.title() + "'s favorite language is " + languages[0].title())
+        print(f"\n{name.title()}'s favorite language is {languages[0].title()}")
