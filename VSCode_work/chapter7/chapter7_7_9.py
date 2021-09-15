@@ -10,7 +10,7 @@ while 'pastrami' in sandwich_orders:
 
 while sandwich_orders:
     finished_sandwich = sandwich_orders.pop()
-    print("I made your " + str(finished_sandwich) +" sandwich.")
+    print(f"I made your {finished_sandwich} sandwich.")
     finished_sandwiches.append(finished_sandwich)
 
 # 打印确认
