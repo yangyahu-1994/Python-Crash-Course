@@ -1,5 +1,5 @@
 # 定义函数
-def make_album(singer_name, album_name, number_of_songs = ''):
+def make_album(singer_name, album_name, number_of_songs=''):
     """返回一个描述音乐专辑的字典"""
     music_album = {'singer': singer_name, 'album': album_name}
     if number_of_songs:

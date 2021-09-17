@@ -3,7 +3,7 @@ def sandwich_ingredients(*toppings):
     """打印一条消息，对顾客点的三明治进行概述"""
     print("\nMaking a sandwich with the following toppings:")
     for topping in toppings:
-        print("- " + topping)
+        print(f"- {topping}")
 
 # 调用函数
 sandwich_ingredients('Toast', 'Six eggs')

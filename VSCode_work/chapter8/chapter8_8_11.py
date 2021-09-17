@@ -1,8 +1,9 @@
 # 定义函数
 def make_great(magicians, new_magicians):
+    """显示魔术师"""
     while magicians:
         current_magician = magicians.pop()
-        new_magician = "the Great " + current_magician
+        new_magician = f"the Great {current_magician}"
         new_magicians.append(new_magician)
     
     return new_magicians
