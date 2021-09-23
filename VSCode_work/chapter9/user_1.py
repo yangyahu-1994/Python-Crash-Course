@@ -10,7 +10,8 @@ class Privileges():
     def show_privileges(self):
         """显示管理员的权限"""
         for privilege in self.privileges:
-            print("Every administrator " + privilege + ".")
+            print(f"Every administrator {privilege}.")
+
 
 class Admin(User):
     """管理员用户的一次简单尝试"""

@@ -1,6 +1,7 @@
 # 创建类
 class User():
-    """11"""
+    """DocString......"""
+    
     def __init__(self, first_name, last_name, location, field):
         """初始化一个用户的属性"""
         self.first_name = first_name
@@ -10,14 +11,14 @@ class User():
 
     def describe_user(self):
         """打印用户信息摘要"""
-        print("First name: " + self.first_name.title() + "!")
-        print("Last name: " + self.last_name.title() + "!")
-        print("Location: " + self.location.title() + "!")
-        print("Field: " + self.field.title() + "!")
+        print(f"First name: {self.first_name.title()}!")
+        print(f"Last name: {self.last_name.title()}!")
+        print(f"Location: {self.location.title()}!")
+        print(f"Field: {self.field.title()}!")
 
     def greet_user(self):
         """向用户发出个性化的问候"""
-        print(self.first_name + self.last_name + ",how are you? have you eaten? are you healthy now?")
+        print(f"{self.first_name}{self.last_name},how are you? have you eaten? are you healthy now?")
 
 # 创建实例
 user_0 = User('yang', 'yahu', 'haerbin', 'navigation')

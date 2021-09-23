@@ -11,8 +11,8 @@ class Restaurant():
 
     def describe_restraurant(self):
         """描述餐馆"""
-        print("\nThe name of this restaurant is " + self.restaurant_name.title() + ".")
-        print("The type of cuisine in this restaurant is " + self.cuisine_type.title() + ".")
+        print(f"\nThe name of this restaurant is {self.restaurant_name.title()}.")
+        print(f"The type of cuisine in this restaurant is {self.cuisine_type.title()}.")
 
     def open_restaurant(self):
         """打开餐馆"""

@@ -18,4 +18,4 @@ glossary['set'] = '集合'
 
 # 遍历字典并打印
 for vocabulary, explanation in glossary.items():
-    print(vocabulary.title() + "'s explanation is " + explanation.title() + ".")
+    print(f"{vocabulary.title()}'s explanation is {explanation.title()}")

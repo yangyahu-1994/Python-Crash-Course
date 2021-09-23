@@ -1,5 +1,5 @@
 class User():
-    """11"""
+    """DocString"""
     
     def __init__(self, first_name, last_name, location, field):
         """初始化一个用户的属性"""
@@ -11,15 +11,15 @@ class User():
 
     def describe_user(self):
         """打印用户信息摘要"""
-        print("First name: " + self.first_name.title() + "!")
-        print("Last name: " + self.last_name.title() + "!")
-        print("Location: " + self.location.title() + "!")
-        print("Field: " + self.field.title() + "!")
-        print("Number of logins: " + str(self.login_attempts) + "!" )
+        print(f"First name: {self.first_name.title()}!")
+        print(f"Last name: {self.last_name.title()}!")
+        print(f"Location: {self.location.title()}!")
+        print(f"Field: {self.field.title()}!")
+        print(f"Number of logins: {self.login_attempts}!" )
 
     def greet_user(self):
         """向用户发出个性化的问候"""
-        print(self.first_name + self.last_name + ",how are you? have you eaten? are you healthy now?")
+        print(f"{self.first_name}{self.last_name}, how are you? have you eaten? are you healthy now?")
 
     def increment_login_attempts(self):
         """将属性login_attempts的值加1"""

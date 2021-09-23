@@ -10,9 +10,9 @@ class Restaurant():
         
     def describe_restraurant(self):
         """描述餐馆"""
-        print("The name of this restaurant is " + self.restaurant_name.title() + ".")
-        print("The type of cuisine in this restaurant is " + self.cuisine_type.title() + ".")
-        print("A total of " + str(self.number_served) + " people have eaten in this restaurant.")
+        print(f"The name of this restaurant is {self.restaurant_name.title()}.")
+        print(f"The type of cuisine in this restaurant is {self.cuisine_type.title()}.")
+        print(f"A total of {self.number_served} people have eaten in this restaurant.")
 
     def open_restaurant(self):
         """打开餐馆"""
@@ -25,6 +25,7 @@ class Restaurant():
     def increment_number_served(self, increased_number):
         """将就餐人数递增"""
         self.number_served += increased_number
+
 
 class IceCreamStand(Restaurant):
     """冰淇淋小店的一次简单尝试"""
@@ -40,7 +41,7 @@ class IceCreamStand(Restaurant):
     def describe_flavors(self):
         """显示这些冰淇淋"""
         for flavor in self.flavors:
-            print("The flavor is " + flavor + ".")
+            print(f"The flavor is {flavor}.")
             
 # 创建实例
 my_ice_cream_shop = IceCreamStand('Tianrun Tofu Fanzhuang', 'Cantonese')

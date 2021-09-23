@@ -11,7 +11,7 @@ class Battery():
         
     def describe_battery(self):
         """打印一条描述电瓶容量的消息"""
-        print("This car has a " + str(self.battery_size) + "-kwh battery")
+        print(f"This car has a {self.battery_size}-kwh battery")
         
     def get_range(self):
         """打印一条消息，指出电瓶的续航里程"""
@@ -20,9 +20,9 @@ class Battery():
         elif self.battery_size == 85:
             range = 270
             
-        message = "This car can go approximately " + str(range)
-        message += " miles on a full charge"
+        message = f"This car can go approximately {range} miles on a full charge"
         print(message)
+
 
 class ElectricCar(Car):
     """电动汽车的独特之处"""
