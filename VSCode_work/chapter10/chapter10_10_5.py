@@ -1,5 +1,5 @@
 # 文件名称
-filename = '/home/yyh/Documents/VSCode_work/chapter10/causes.txt'
+filename = '/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/causes.txt'
 
 # 循环
 while True:
@@ -8,4 +8,4 @@ while True:
         break
     else:
         with open(filename, 'a') as file_object:
-            file_object.write(cause + "\n")
+            file_object.write(f"{cause}\n")

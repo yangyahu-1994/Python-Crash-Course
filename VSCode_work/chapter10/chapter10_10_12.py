@@ -1,8 +1,8 @@
-# 导入必要的模块
+# 导入模块
 import json
 
 # 文件名称
-filename = 'liked_number'
+filename = '/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/liked_number.json'
 try:
     with open(filename) as file_object:
         liked_number = json.load(file_object)
@@ -11,4 +11,4 @@ except FileNotFoundError:
     with open(filename, 'w') as file_object:
         json.dump(liked_number, file_object)
 else:
-    print("I know your favorite number! It's " + liked_number + ".")
+    print(f"I know your favorite number! It's {liked_number}.")

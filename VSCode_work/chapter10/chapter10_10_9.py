@@ -13,7 +13,8 @@ def find_file(filename):
         print(contents.rstrip())
 
 # 文件列表
-filenames = ['cats.txt', 'dogs.txt']
+filenames = ['/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/cats.txt', 
+             '/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/dogs.txt']
 # 调用函数
 for filename in filenames:
     find_file(filename)

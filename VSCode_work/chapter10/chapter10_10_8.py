@@ -8,12 +8,13 @@ def find_file(filename):
         with open(filename) as file_object:
             contents = file_object.read()
     except FileNotFoundError:
-        message = "Sorry, the file " + filename + " does not exist."
+        message = f"Sorry, the file {filename} does not exist."
         print(message)
     else:
         
         print(contents.rstrip())
 
-filenames = ['cats.txt', 'dogs.txt']
+filenames = ['/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/cats.txt',
+             '/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/dogs.txt']
 for filename in filenames:
     find_file(filename)

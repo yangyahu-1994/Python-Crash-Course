@@ -1,5 +1,5 @@
 # 文件名称
-filename = '/home/yyh/Documents/VSCode_work/chapter10/guest_book.txt'
+filename = '/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/guest_book.txt'
 
 # 循环
 while True:
@@ -7,9 +7,9 @@ while True:
     if name == 'quit':
         break
     else:
-        print("Hello, " + name + "!")
+        print(f"Hello, {name}!")
         with open(filename, 'a') as file_object:
-            file_object.write(name + "\n")
+            file_object.write(f"{name}\n")
            
 
     

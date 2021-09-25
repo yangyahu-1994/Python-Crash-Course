@@ -5,14 +5,16 @@ def count_numbers(filename):
         with open(filename) as file_object:
             contents = file_object.read()
     except FileNotFoundError:
-        print("Sorry, the file " + filename + "does not exits.")
+        print(f"Sorry, the file {filename} does not exits.")
     else:
         # 计算出现的次数
         numbers = contents.lower().count('the')
-        print("The word 'the' appears " + str(numbers) + " times in file " + filename + ".")
+        print(f"The word 'the' appears {numbers} times in file {filename}.")
 
 # 获取文件
-filenames = ['63558-0.txt', '63559-0.txt', '63560-0.txt']
+filenames = ['/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/63558-0.txt', 
+             '/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/63559-0.txt', 
+             '/home/yyh/Documents/Python_Crash_Course/Python-Crash-Course/VSCode_work/chapter10/data/63560-0.txt']
 for filename in filenames:
     count_numbers(filename)
         
