@@ -2,7 +2,7 @@
 import unittest
 from city_functions import get_city_country
 
-class CityCountryTestCase(unittest.TestCase):
+class TestGetCityCountry(unittest.TestCase):
     """测试city_functions.py"""
     
     def test_city_country(self):
@@ -12,7 +12,8 @@ class CityCountryTestCase(unittest.TestCase):
 
     def test_city_country_population(self):
         """有population的测试"""
-        my_city = get_city_country('beijing', 'china', population='50000000')
+        my_city = get_city_country('beijing', 'china', population=50000000)
         self.assertEqual(my_city, 'Beijing, China - population 50000000')
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

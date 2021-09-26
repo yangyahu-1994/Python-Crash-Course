@@ -2,7 +2,7 @@
 import unittest
 from name_function import get_formatted_name
 
-class NamesTestCase(unittest.TestCase):
+class TestGetFormattedName(unittest.TestCase):
     """测试name_function.py"""
     
     def test_first_last_name(self):
@@ -15,4 +15,5 @@ class NamesTestCase(unittest.TestCase):
         formatted_name = get_formatted_name('wolfgang', 'mozart', 'amadeus')
         self.assertEqual(formatted_name, 'Wolfgang Amadeus Mozart')
         
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()

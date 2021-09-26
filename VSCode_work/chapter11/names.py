@@ -11,4 +11,4 @@ while True:
         break
         
     formatted_name = get_formatted_name(first, last)
-    print("\tNeatly formatted name: " + formatted_name + ".")
+    print(f"\tNeatly formatted name: {formatted_name}.")
