@@ -1,8 +1,8 @@
-from die import Die
-import matplotlib.pyplot as plt 
 import matplotlib.patches as mpatches # 导入matplotlib标准库中的patches模块
- 
- 
+import matplotlib.pyplot as plt 
+
+from die import Die
+
 die_1 = Die()
 die_2 = Die(10)
  

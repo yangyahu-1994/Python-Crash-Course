@@ -18,5 +18,5 @@ plt.ylabel("Cube of Value", fontsize=14)
 plt.axis([1, 5000, 1, 125000000000])
 
 # plt.savefig('/home/yyh/Documents/VSCode_work/chapter15/cobes_plot_1.png', bbox_inches='tight')
-plt.savefig('/home/yyh/Documents/VSCode_work/chapter15/cobes_plot_3.png', bbox_inches='tight')
+plt.savefig('chapter15/result/cobes_plot_3.png', bbox_inches='tight')
 

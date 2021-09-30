@@ -1,6 +1,7 @@
 # 导入必要的模块和类
-from die import Die
 import pygal
+
+from die import Die
 
 # 创建两个D8实例
 die_1 = Die(8)
@@ -28,4 +29,4 @@ hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
 
 hist.add('D8 + D8', frequencies)
-hist.render_to_file('/home/yyh/Documents/VSCode_work/chapter15/dice_visual_15_7.svg')
+hist.render_to_file('chapter15/result/dice_visual_15_7.svg')

@@ -1,5 +1,6 @@
 # rw_visual.py
 import matplotlib.pyplot as plt
+
 from random_walk import RandomWalk
 
 # 只要程序处于活动状态，就不断地模拟随机漫步、
@@ -18,7 +19,7 @@ while True:
     plt.axes().get_yaxis().set_visible(False)
 
     # plt.show()
-    plt.savefig('/home/yyh/Documents/VSCode_work/chapter15/random_walk_15_5.png', bbox_inches='tight')
+    plt.savefig('chapter15/result/random_walk_15_5.png', bbox_inches='tight')
 
     keep_running = input("Make another walk?(y/n): ")
     if keep_running == 'n':

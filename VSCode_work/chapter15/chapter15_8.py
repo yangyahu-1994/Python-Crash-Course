@@ -1,6 +1,7 @@
 # 导入必要的模块和类
-from die import Die
 import pygal
+
+from die import Die
 
 # 创建三个D6实例
 die_1 = Die()
@@ -29,4 +30,4 @@ hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
 
 hist.add('D6 + D6 + D6', frequencies)
-hist.render_to_file('/home/yyh/Documents/VSCode_work/chapter15/dice_visual_15_8.svg')
+hist.render_to_file('chapter15/result/dice_visual_15_8.svg')

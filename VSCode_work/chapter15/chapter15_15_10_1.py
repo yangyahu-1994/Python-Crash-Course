@@ -1,5 +1,6 @@
 # 导入必要的模块和类
 import pygal
+
 from random_walk import RandomWalk
  
 rw = RandomWalk(1000)
@@ -16,4 +17,4 @@ for (x,y) in zip(rw.x_values,rw.y_values):
  
 xy_chart.add('data', xy_list)
  
-xy_chart.render_to_file('/home/yyh/Documents/VSCode_work/chapter15/RandomWalk_15_10_1.svg')
+xy_chart.render_to_file('chapter15/result/RandomWalk_15_10_1.svg')
