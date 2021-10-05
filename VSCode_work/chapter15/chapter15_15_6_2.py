@@ -29,6 +29,7 @@ hist.title = "Results of rolling two D6 dice 1000 times."
 x_l = []
 for value in range(2, max_result+1):
     x_l.append(str(value))
+hist.x_labels = x_l
 hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
 

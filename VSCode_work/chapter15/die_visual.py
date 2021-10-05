@@ -1,6 +1,7 @@
 # 导入必要的模块和类
-from die import Die
 import pygal
+
+from die import Die
 
 # 创建一个D6实例
 die = Die()
@@ -14,7 +15,7 @@ for roll_num in range(1000):
 # 分析结果
 frequencies = []
 for value in range(1, die.num_sides+1):
-    frequency = results.count(value)
+    frequency = results.count(value) # count():统计字符串里某个字符出现的次数。
     frequencies.append(frequency)
 
 # 对结果进行可视化
@@ -26,4 +27,4 @@ hist.x_title = "Result"
 hist.y_title = "Frequency of Result"
 
 hist.add('D6', frequencies)
-hist.render_to_file('/home/yyh/Documents/VSCode_work/chapter15/die_visual.svg')
+hist.render_to_file('chapter15/result/die_visual.svg')
